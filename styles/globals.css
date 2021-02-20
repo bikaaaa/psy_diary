@@ -1,11 +1,19 @@
 html,
 body {
+  background: white;
+  background-image: linear-gradient(280deg,#3252a0,#5070c0, #9cb0e4);
+  background-size: 300%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, 'Times New Roman', Times, serif;
+  animation: bg-animation 5s infinite alternate; 
 }
 
+@keyframes bg-animation{
+  0% {background-position: left}
+  100% {background-position: right}
+}
 a {
   color: inherit;
   text-decoration: none;

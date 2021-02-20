@@ -8,8 +8,18 @@ export default function NavigationBar() {
       <Link href="/">
         <a>Home</a>
       </Link>
-      <Link href="/about">
-        <a>About</a>
+
+      <Link href="/contacts">
+        <a>Contacts</a>
+      </Link>
+      <Link href="/calendar">
+        <a>Calendar</a>
+      </Link>
+      <Link href="/notes">
+        <a>Notes</a>
+      </Link>
+      <Link href="/invoice">
+        <a>Invoices</a>
       </Link>
     </div>
   );
