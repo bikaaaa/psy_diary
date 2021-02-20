@@ -8,6 +8,7 @@ export default function NavigationBar() {
       <Link href="/">
         <a>Home</a>
       </Link>
+<<<<<<< HEAD
       <Link href="/contacts">
         <a>Contacts</a>
       </Link>
@@ -23,3 +24,11 @@ export default function NavigationBar() {
     </div>
   );
 }
+=======
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+    </div>
+  );
+}
+>>>>>>> 7b665585916918ae0310d2d633cf909f05c9664c

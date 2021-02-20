@@ -63,5 +63,32 @@
   margin-left: 3%;
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
+<<<<<<< HEAD
   font-family: 'Times New Roman', Times, serif;
 }
+=======
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.navbar {
+  display: inline-flex;
+  font-size: 25px;
+  gap: 25px;
+}
+>>>>>>> 7b665585916918ae0310d2d633cf909f05c9664c
