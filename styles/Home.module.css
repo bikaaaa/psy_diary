@@ -33,7 +33,7 @@
   margin-left: 2%;
   line-height: 1.15;
   font-size: 5rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: rgb(252, 249, 255);
   -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
@@ -47,12 +47,14 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-
 .navbar {
+  width: 95vw;
   display: inline-flex;
+  justify-content: space-between;
   font-size: 25px;
   gap: 25px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 0.5vw;
 }
 
 .p {
@@ -61,12 +63,8 @@
   top: 0;
   margin-top: 10%;
   margin-left: 3%;
-  color: rgb(0, 0, 0);
   font-size: 1.5rem;
-<<<<<<< HEAD
-  font-family: 'Times New Roman', Times, serif;
-}
-=======
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card p {
@@ -91,7 +89,39 @@
   font-size: 25px;
   gap: 25px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 7b665585916918ae0310d2d633cf909f05c9664c
->>>>>>> origin/merge
+
+.login-box {
+  border: solid white 2px;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.login-box input {
+  width: 100%;
+}
+
+.login-box button {
+  margin-top: 5px;
+}
+
+.login-button {
+  background: none;
+  border: solid 3px white;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  color: blue;
+  background-color: white;
+  border: solid 3px black;
+}
+
+.calendar-container {
+  display: inline-flex;
+  gap: 3vw;
+}
